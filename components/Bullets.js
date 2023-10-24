@@ -817,7 +817,7 @@ AFRAME.registerComponent("bullets", {
                     weapon.setAttribute("animation", { property: "rotation", dur: 800, easing: "easeInOutQuad", from: "0 60 30", to: "0 60 -30" })
                 }, 2300)
                 setTimeout(() => {
-                    weapon.setAttribute("animation", { property: "rotation", dur: 400, easing: "easeInOutQuad", from: "0 60 -30", to: "0 0 0" })
+                    weapon.setAttribute("animation", { property: "rotation", dur: 400, easing: "easeInOutQuad", from: "0 60 -30", to: "0 180 0" })
                 }, 3100)
                 setTimeout(() => {
                     tingColor = document.querySelector("#tingo").getAttribute("color")
